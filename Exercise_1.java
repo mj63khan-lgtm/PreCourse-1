@@ -1,4 +1,7 @@
-class Stack { 
+// Time Complexity: O(1) for push, pop, and peek operations
+// Space Complexity: O(n) where n is the number of elements in the stack
+
+class Stack {
     //Please read sample.java file before starting.
   //Kindly include Time and Space complexity at top of each file
     static final int MAX = 1000; 

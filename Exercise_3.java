@@ -1,5 +1,6 @@
 import java.io.*; 
-  
+// Time Complexity: O(n) for insertion and printing
+// Space Complexity: O(n) where n is the number of nodes in the linked list
 // Java program to implement 
 // a Singly Linked List 
 public class LinkedList { 
@@ -47,6 +48,7 @@ public class LinkedList {
             }
             last.next = new_node; // Insert new node at the end
         }
+        return list; // Return the updated list
     } 
   
     // Method to print the LinkedList. 
